@@ -5,7 +5,7 @@ body {
     overflow: hidden;
 }
 h1 {
-    font-size: 9.0vw;
+    font-size: 9.0vmax;
     width: 100%;
     font-family: 'Cardo', serif;
 }
@@ -24,6 +24,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 #my-name {
     text-align: left;
@@ -37,7 +38,7 @@ h1 {
 }
 #contact-me {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4vw;
+    font-size: 4vmax;
     color: #434f7b;
     animation: 5s fade-in;
 }

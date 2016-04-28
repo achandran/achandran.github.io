@@ -7,6 +7,11 @@ body {
 h1 {
     font-size: 9.0vw;
     font-family: 'Cardo', serif;
+    word-wrap: nowrap;
+}
+img {
+    max-height: 100%;
+    margin-left: auto;
 }
 #container {
     display: flex;
@@ -20,6 +25,8 @@ h1 {
 .child {
     flex: auto;
     display: flex;
+    justify-content: space-around;
+    height: 33.3%;
     align-items: center;
 }
 #top-left {
@@ -28,6 +35,11 @@ h1 {
 }
 #top-left h1 {
     color: #7c979e;
+    max-height: 100%;
+    max-width: 50%;
+}
+#top-left img {
+    max-width: 50%;
 }
 #mid-right {
     margin-right: 0;

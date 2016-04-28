@@ -5,29 +5,26 @@ body {
     overflow: hidden;
 }
 h1 {
-    font-size: 9.0vw;
+    font-size: calc(7.0vw + 2vmax);
     font-family: 'Cardo', serif;
     word-wrap: nowrap;
 }
 img {
     max-height: 100%;
+    max-width: 50%;
     margin-left: auto;
 }
 #container {
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
-    align-items: center;
-    justify-content: flex-start;
     background-color: #ffe3c7;
-    flex-direction: column;
 }
 .child {
-    flex: auto;
     display: flex;
-    justify-content: space-around;
-    height: 33.3%;
     align-items: center;
+    height: 33.3%;
 }
 #top-left {
     margin-right: auto;
@@ -36,9 +33,6 @@ img {
 #top-left h1 {
     color: #7c979e;
     max-height: 100%;
-    max-width: 50%;
-}
-#top-left img {
     max-width: 50%;
 }
 #mid-right {
@@ -50,13 +44,17 @@ img {
     color: #95bfa0;
 }
 #bot-right {
-    margin-right: auto;
     animation: 5s fade-in;
+    justify-content: space-between;
+    align-items: center;
 }
-#bot-right h1 {
+#bot-right h3 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4vw;
+    font-size: calc(4vw + 2vmax);
     color: #434f7b;
+}
+#link-div img {
+    float: right;
 }
 /* specify our CSS animations below */
 @keyframes slide-left {

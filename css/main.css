@@ -54,8 +54,9 @@ img {
     color: #434f7b;
 }
 #link-div img {
+    width: 20%;
     float: right;
-    height: 15vmin;
+    margin-right: 4vw;
 }
 /* specify our CSS animations below */
 @keyframes slide-left {

@@ -1,1 +1,18 @@
-<?xml version="1.0" ?><svg enable-background="new 0 0 32 32" height="32px" id="svg2" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><g id="background"><rect fill="none" height="32" width="32"/></g><g id="document_x5F_text"><polygon points="4,22 4,20 16,20 16,22 4,22  "/><polygon points="4,14 4,12 20,12 20,14 4,14  "/><polygon points="4,18 4,16 20,16 20,18 4,18  "/><path d="M18.414,0H0v32h24V5.584L18.414,0z M17.998,2.413L21.586,6h-3.588V2.413z M2,30V1.998h14v6.001h6V30H2z"/></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="44.000000pt" height="44.000000pt" viewBox="0 0 44.000000 44.000000"
+ preserveAspectRatio="xMidYMid meet">
+<metadata>
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+</metadata>
+<g transform="translate(0.000000,44.000000) scale(0.050000,-0.050000)"
+fill="#434f7b" stroke="none">
+<path d="M240 826 c-301 -159 -320 -577 -33 -755 210 -129 474 -69 602 136
+234 380 -175 826 -569 619z m340 -208 l80 -83 0 -177 0 -178 -220 0 -220 0 0
+260 0 260 140 0 c138 0 141 -1 220 -82z"/>
+<path d="M300 440 l0 -180 140 0 140 0 0 120 c0 120 0 120 -60 120 -53 0 -60
+7 -60 60 0 57 -4 60 -80 60 l-80 0 0 -180z"/>
+</g>
+</svg>

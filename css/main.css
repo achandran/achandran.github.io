@@ -5,7 +5,7 @@ body {
     overflow: hidden;
 }
 h1 {
-    font-size: calc(7.0vw + 2vmax);
+    font-size: 13vmin;
     font-family: 'Cardo', serif;
     word-wrap: nowrap;
 }
@@ -50,7 +50,7 @@ img {
 }
 #bot-right h3 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: calc(4vw + 2vmax);
+    font-size: 6vmin;
     color: #434f7b;
 }
 #link-div img {

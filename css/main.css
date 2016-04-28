@@ -55,6 +55,7 @@ img {
 }
 #link-div img {
     float: right;
+    height: 15vmin;
 }
 /* specify our CSS animations below */
 @keyframes slide-left {

@@ -6,12 +6,12 @@ body {
 }
 h1 {
     font-size: 13vmin;
-    font-family: 'Cardo', serif;
+    font-family: 'Yeseva One', serif;
     word-wrap: nowrap;
 }
 img {
     max-height: 100%;
-    max-width: 50%;
+    max-width: 30%;
     margin-left: auto;
 }
 #container {
@@ -19,7 +19,9 @@ img {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: #ffe3c7;
+    padding: 5vw;
+    box-sizing: border-box;
+    background-color: #f2e5bc;
 }
 .child {
     display: flex;
@@ -30,28 +32,27 @@ img {
     margin-right: auto;
     animation: 1s slide-left;
 }
-#top-left h1 {
-    color: #7c979e;
+#my-name {
     max-height: 100%;
     max-width: 50%;
+    color: #076577;
+
 }
 #mid-right {
     margin-right: 0;
     margin-left: auto;
     animation: 1.7s slide-right;
 }
-#mid-right h1 {
-    color: #95bfa0;
-}
+
 #bot-right {
     animation: 5s fade-in;
     justify-content: space-between;
     align-items: center;
 }
-#bot-right h3 {
+#my-email {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 6vmin;
-    color: #434f7b;
+    color: #076577;
 }
 .link-icon {
     width: 20%;
